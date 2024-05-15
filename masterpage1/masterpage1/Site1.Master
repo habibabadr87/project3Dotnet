@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="masterpage1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <link href="style/style.css" rel="stylesheet" />
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    
+    <style type="text/css">
+        .auto-style2 {
+            height: 441px;
+        }
+        .auto-style3 {
+            width: 100%;
+            height: 440px;
+        }
+        .auto-style4 {
+            height: 44px;
+        }
+        .auto-style5 {
+            width: 53px;
+        }
+        .auto-style6 {
+            width: 622px;
+        }
+        .auto-style7 {
+            font-size: medium;
+            text-decoration: none;
+        }
+        .auto-style8 {
+            text-align: left;
+            height: 38px;
+            position: absolute;
+            z-index: auto;
+            visibility: visible;
+            left: 218px;
+            top: 16px;
+            width: 336px;
+        }
+        </style>
+   
+    
+    </head>
+<body>
+    
+   
+    <form id="form1" runat="server">
+        <div class="content">
+        <asp:ContentPlaceHolder ID="Contentbody" runat="server">
+            <div class="auto-style2">
+                <table class="auto-style3">
+                    <tr>
+                        <td class="auto-style4" colspan="3">
+         <div class="clear" role="search">
+        <div class="auto-style8" style="padding: 0px; margin: 0px; border: medium none #0000FF; display: inline-block;" aria-atomic="True">
+            &nbsp;<strong><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin.aspx" BorderStyle="Groove" ForeColor="#000099" Width="51px" CssClass="auto-style7">Home</asp:HyperLink>   
+            &nbsp;   
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin.aspx" BorderStyle="Groove" ForeColor="#000099" Width="74px" CssClass="auto-style7">about us</asp:HyperLink>
+            &nbsp;
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Admin.aspx" BorderStyle="Groove" ForeColor="#000099" Width="62px" CssClass="auto-style7">contact</asp:HyperLink>
+            &nbsp;
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin.aspx" BorderStyle="Groove" ForeColor="#000099" Width="69px" CssClass="auto-style7">Services</asp:HyperLink>
+            </strong>
+        </div>
+             <br />
+        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style5">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Footer">
+                <asp:HyperLink ID="HyperLink5" runat="server">copyright@Home.com</asp:HyperLink>
+            </div>
+            
+        </asp:ContentPlaceHolder>
+            </div>
+       
+    </form>
+    
+   
+    </body>
+</html>
